@@ -1,0 +1,6 @@
+@font-face {
+    font-family: isocpeur, sans-serif;
+    src: local("isocpeur"),
+    url("isocpeur.ttf") format("truetype");
+    font-weight: normal;
+}

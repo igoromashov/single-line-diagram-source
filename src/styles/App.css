@@ -1,0 +1,186 @@
+body {
+    font-family: isocpeur;
+}
+p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.main {
+    padding: 5mm;
+}
+.controls {
+    display: flex;
+    margin-left: 5mm;
+    background-color: rgba(255, 0, 0, 0.17);
+}
+.externalGrid1 {
+    position: absolute;
+    border: 0.1mm solid rgb(104, 104, 104);
+    /*z-index: 5;*/
+}
+
+.A4,
+.A3,
+.A4x3,
+.A4x4,
+.A4x5,
+.A4x6 {
+    height: 297mm;
+}
+.A4{
+    width: 210mm;
+}
+.A3 {
+    width: 420mm;
+}
+.A4x3 {
+    width: 630mm;
+}
+.A4x4 {
+    width: 840mm;
+}
+.A4x5 {
+    width: 1060mm;
+}
+.A4x6 {
+    width: 1280mm;
+}
+
+.externalGrid2 {
+    position: absolute;
+    left: 20mm;
+    top: 5mm;
+    right: 5mm;
+    bottom: 5mm;
+    border: 0.7mm solid black;
+    width: auto;
+    height: auto;
+    /*z-index: 5;*/
+}
+.mainNote {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    width: 185mm;
+    height: 55mm;
+    /*z-index: 2;*/
+    /* opacity: 0.25; */
+}
+.soglGrid {
+    position: absolute;
+    bottom: 5mm;
+    width: 20mm;
+    height: 150mm;
+
+}
+.titleGrid1 {
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 58mm;
+    height: 231.6mm;
+    /*z-index: 3;*/
+    opacity: 1;
+}
+.titleGrid2 {
+    position: absolute;
+    top: -2px;
+    left: 58mm;
+    width: 122mm;
+    height: 25mm;
+    /*z-index: 3;*/
+    opacity: 1;
+}
+
+.secDevicesZone {
+    position: absolute;
+    bottom: 54.5mm;
+    left: 58mm;
+    right: 0mm;
+    width: auto;
+    height: 163mm;
+    display: flex;
+    /*z-index: 2;*/
+    opacity: 1;
+}
+.notes {
+    position: absolute;
+    top: 265mm;
+    left: 25mm;
+    width: 210mm;
+    height: 55mm;
+    /*z-index: 2;*/
+    padding: 5mm;
+}
+.titleDeviceTable {
+    position: absolute;
+    top: 186.1mm;
+    left: 0;
+    right: -1px;
+    width: auto;
+}
+.titleDeviceTable1 {
+    width: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    border: 1px solid black;
+    min-height: 6mm;
+}
+.titleDeviceTable2 {
+    margin-top: -1px;
+    width: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    border: 1px solid black;
+    min-height: 6mm;
+}
+
+.deg90 {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-align: center;
+    vertical-align: middle;
+}
+.tbCenter {
+    text-align: center;
+    vertical-align: middle;
+}
+.tbLeft {
+    text-align: left;
+    vertical-align: middle;
+}
+input:hover {
+    background-color: rgba(127, 255, 212, 0.25);
+}
+
+input:focus {
+    background-color: rgba(127, 255, 212, 0.5);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'],
+input[type="number"]:hover,
+input[type="number"]:focus {
+    appearance: none;
+    -moz-appearance: textfield;
+}
+.button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: lightgreen;
+}
+
+.plus  {background: rgba(112, 128, 144, 0.25) url("../img/plus-square.svg") no-repeat center center;}
+.minus  {background: rgba(112, 128, 144, 0.25) url("../img/dash-square.svg") no-repeat center center;}

@@ -1,0 +1,70 @@
+.mainDeviceZone {
+    position: absolute;
+    left: 184mm;
+    width: 130mm;
+    height: 85mm;
+    /*z-index: -1;*/
+    /*background-color: purple;*/
+    /*opacity: 0.25;*/
+}
+.mainLines {
+    position: absolute;
+    left: -126mm;
+    bottom: -2.2mm;
+    height: 17.5mm;
+    width: 150mm;
+}
+.Mdevice {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: inherit;
+}
+.MdeviceImg {
+    position: absolute;
+    left: -10mm;
+    bottom: -23.5mm;
+    height: 130mm;
+}
+.Mphase1,
+.Mphase2 {
+    position: absolute;
+    width: 2.4mm;
+    left: 5.77mm;
+}
+.Mphase1 {
+    bottom: 17.55mm;
+}
+.Mphase2 {
+    bottom: 55mm;
+}
+
+.Mcable {
+    position: absolute;
+    left: 9mm;
+    top: 27.5mm;
+    text-align: center;
+    width: 67.5mm;
+}
+.McableInfo {
+    font-size: 4mm;
+    margin-block-end: 0em;
+    margin: 0;
+}
+.mDevInfoZone {
+    position: absolute;
+    left: 9mm;
+    top: 49mm;
+}
+.mDEV {
+    font-size: 4mm;
+    text-decoration: underline;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.mDEVinfo {
+    font-size: 2.5mm;
+    margin: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
